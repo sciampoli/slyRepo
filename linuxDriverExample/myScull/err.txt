@@ -1,0 +1,3 @@
+mknod: missing operand after `0'
+Try `mknod --help' for more information.
+hmod: cannot access `/dev/myScullpriv': No such file or directory

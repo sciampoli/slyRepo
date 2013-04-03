@@ -1,0 +1,1 @@
+cmd_/home/silvestro/devFolder/LinuxDeviceDriverEx/myScull/myScull.o := ld -m elf_i386   -r -o /home/silvestro/devFolder/LinuxDeviceDriverEx/myScull/myScull.o /home/silvestro/devFolder/LinuxDeviceDriverEx/myScull/myScullMain.o /home/silvestro/devFolder/LinuxDeviceDriverEx/myScull/pipe.o 

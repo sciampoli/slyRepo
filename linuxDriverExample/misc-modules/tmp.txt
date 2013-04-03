@@ -1,0 +1,179 @@
+In file included from include/asm/system.h:5,
+                 from include/asm/processor.h:18,
+                 from include/asm/thread_info.h:16,
+                 from include/linux/thread_info.h:21,
+                 from include/linux/spinlock.h:12,
+                 from include/linux/capability.h:45,
+                 from include/linux/sched.h:7,
+                 from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/linux/kernel.h:81: warning: 'regparm' attribute directive ignored
+include/linux/kernel.h:92: warning: conflicting types for built-in function 'snprintf'
+include/linux/kernel.h:93: warning: conflicting types for built-in function 'vsnprintf'
+include/linux/kernel.h:110: warning: 'regparm' attribute directive ignored
+include/linux/kernel.h:112: warning: 'regparm' attribute directive ignored
+In file included from include/asm/processor.h:18,
+                 from include/asm/thread_info.h:16,
+                 from include/linux/thread_info.h:21,
+                 from include/linux/spinlock.h:12,
+                 from include/linux/capability.h:45,
+                 from include/linux/sched.h:7,
+                 from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/asm/system.h:13: warning: 'regparm' attribute directive ignored
+In file included from include/asm/thread_info.h:16,
+                 from include/linux/thread_info.h:21,
+                 from include/linux/spinlock.h:12,
+                 from include/linux/capability.h:45,
+                 from include/linux/sched.h:7,
+                 from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/asm/processor.h:87: error: array type has incomplete element type
+In file included from include/linux/bitmap.h:8,
+                 from include/linux/cpumask.h:78,
+                 from include/linux/sched.h:15,
+                 from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/linux/string.h:18: warning: conflicting types for built-in function 'strspn'
+include/linux/string.h:19: warning: conflicting types for built-in function 'strcspn'
+In file included from include/linux/string.h:24,
+                 from include/linux/bitmap.h:8,
+                 from include/linux/cpumask.h:78,
+                 from include/linux/sched.h:15,
+                 from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/asm/string.h:46: warning: conflicting types for built-in function 'strncpy'
+include/asm/string.h:105: warning: conflicting types for built-in function 'strncat'
+include/asm/string.h:149: warning: conflicting types for built-in function 'strncmp'
+include/asm/string.h:210: warning: conflicting types for built-in function 'strlen'
+include/asm/string.h:312: warning: conflicting types for built-in function 'memmove'
+In file included from include/linux/bitmap.h:8,
+                 from include/linux/cpumask.h:78,
+                 from include/linux/sched.h:15,
+                 from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/linux/string.h:85: warning: conflicting types for built-in function '__builtin_memcmp'
+In file included from include/asm/semaphore.h:41,
+                 from include/linux/sched.h:18,
+                 from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/linux/wait.h:101: warning: 'regparm' attribute directive ignored
+include/linux/wait.h:102: warning: 'regparm' attribute directive ignored
+include/linux/wait.h:103: warning: 'regparm' attribute directive ignored
+include/linux/wait.h:125: warning: 'regparm' attribute directive ignored
+include/linux/wait.h:126: warning: 'regparm' attribute directive ignored
+include/linux/wait.h:127: warning: 'regparm' attribute directive ignored
+include/linux/wait.h:287: warning: 'regparm' attribute directive ignored
+include/linux/wait.h:288: warning: 'regparm' attribute directive ignored
+include/linux/wait.h:290: warning: 'regparm' attribute directive ignored
+include/linux/wait.h:291: warning: 'regparm' attribute directive ignored
+include/linux/wait.h:297: warning: 'regparm' attribute directive ignored
+include/linux/wait.h:299: warning: 'regparm' attribute directive ignored
+include/linux/wait.h:301: warning: 'regparm' attribute directive ignored
+In file included from include/linux/rwsem.h:27,
+                 from include/asm/semaphore.h:42,
+                 from include/linux/sched.h:18,
+                 from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/asm/rwsem.h:46: warning: 'regparm' attribute directive ignored
+include/asm/rwsem.h:47: warning: 'regparm' attribute directive ignored
+include/asm/rwsem.h:48: warning: 'regparm' attribute directive ignored
+include/asm/rwsem.h:49: warning: 'regparm' attribute directive ignored
+In file included from include/linux/sched.h:18,
+                 from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/asm/semaphore.h:90: warning: 'regparm' attribute directive ignored
+include/asm/semaphore.h:91: warning: 'regparm' attribute directive ignored
+include/asm/semaphore.h:92: warning: 'regparm' attribute directive ignored
+include/asm/semaphore.h:93: warning: 'regparm' attribute directive ignored
+include/asm/semaphore.h:95: warning: 'regparm' attribute directive ignored
+include/asm/semaphore.h:96: warning: 'regparm' attribute directive ignored
+include/asm/semaphore.h:97: warning: 'regparm' attribute directive ignored
+include/asm/semaphore.h:98: warning: 'regparm' attribute directive ignored
+In file included from include/linux/signal.h:6,
+                 from include/linux/sched.h:25,
+                 from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/asm/signal.h:225: warning: 'regparm' attribute directive ignored
+In file included from include/linux/sched.h:29,
+                 from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/linux/completion.h:30: warning: 'regparm' attribute directive ignored
+include/linux/completion.h:31: warning: 'regparm' attribute directive ignored
+include/linux/completion.h:32: warning: 'regparm' attribute directive ignored
+include/linux/completion.h:34: warning: 'regparm' attribute directive ignored
+include/linux/completion.h:37: warning: 'regparm' attribute directive ignored
+include/linux/completion.h:38: warning: 'regparm' attribute directive ignored
+In file included from include/linux/sched.h:30,
+                 from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/linux/pid.h:29: warning: 'regparm' attribute directive ignored
+include/linux/pid.h:31: warning: 'regparm' attribute directive ignored
+include/linux/pid.h:37: warning: 'regparm' attribute directive ignored
+include/linux/pid.h:40: warning: 'regparm' attribute directive ignored
+In file included from include/linux/slab.h:15,
+                 from include/linux/percpu.h:4,
+                 from include/linux/sched.h:31,
+                 from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/linux/gfp.h:83: warning: 'regparm' attribute directive ignored
+include/linux/gfp.h:115: warning: 'regparm' attribute directive ignored
+include/linux/gfp.h:116: warning: 'regparm' attribute directive ignored
+include/linux/gfp.h:124: warning: 'regparm' attribute directive ignored
+include/linux/gfp.h:125: warning: 'regparm' attribute directive ignored
+include/linux/gfp.h:126: warning: 'regparm' attribute directive ignored
+include/linux/gfp.h:127: warning: 'regparm' attribute directive ignored
+In file included from include/linux/percpu.h:4,
+                 from include/linux/sched.h:31,
+                 from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/linux/slab.h:107: warning: 'regparm' attribute directive ignored
+include/linux/slab.h:108: warning: 'regparm' attribute directive ignored
+In file included from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/linux/sched.h:183: warning: 'regparm' attribute directive ignored
+include/linux/sched.h:184: warning: 'regparm' attribute directive ignored
+In file included from include/linux/aio.h:5,
+                 from include/linux/sched.h:193,
+                 from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/linux/workqueue.h:60: warning: 'regparm' attribute directive ignored
+include/linux/workqueue.h:61: warning: 'regparm' attribute directive ignored
+include/linux/workqueue.h:62: warning: 'regparm' attribute directive ignored
+include/linux/workqueue.h:64: warning: 'regparm' attribute directive ignored
+include/linux/workqueue.h:65: warning: 'regparm' attribute directive ignored
+In file included from include/linux/sched.h:193,
+                 from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/linux/aio.h:157: warning: 'regparm' attribute directive ignored
+include/linux/aio.h:158: warning: 'regparm' attribute directive ignored
+include/linux/aio.h:159: warning: 'regparm' attribute directive ignored
+include/linux/aio.h:160: warning: 'regparm' attribute directive ignored
+include/linux/aio.h:161: warning: 'regparm' attribute directive ignored
+include/linux/aio.h:163: warning: 'regparm' attribute directive ignored
+include/linux/aio.h:165: warning: 'regparm' attribute directive ignored
+include/linux/aio.h:170: warning: 'regparm' attribute directive ignored
+In file included from include/linux/module.h:10,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/linux/sched.h:750: warning: 'regparm' attribute directive ignored
+include/linux/sched.h:751: warning: 'regparm' attribute directive ignored
+include/linux/sched.h:752: warning: 'regparm' attribute directive ignored
+include/linux/sched.h:759: warning: 'regparm' attribute directive ignored
+include/linux/sched.h:760: warning: 'regparm' attribute directive ignored
+include/linux/sched.h:847: warning: 'regparm' attribute directive ignored
+include/linux/sched.h:925: warning: 'regparm' attribute directive ignored
+include/linux/sched.h:1037: warning: 'regparm' attribute directive ignored
+In file included from include/asm/elf.h:12,
+                 from include/linux/elf.h:5,
+                 from include/linux/module.h:17,
+                 from /home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.c:5:
+include/asm/desc.h:27: warning: 'regparm' attribute directive ignored
+include/asm/desc.h:28: warning: 'regparm' attribute directive ignored
+include/asm/desc.h:29: warning: 'regparm' attribute directive ignored
+include/asm/desc.h: In function '__set_tss_desc':
+include/asm/desc.h:55: warning: cast from pointer to integer of different size
+include/asm/desc.h: In function 'set_ldt_desc':
+include/asm/desc.h:62: warning: cast from pointer to integer of different size
+make[2]: *** [/home/ita29411/LinuxDeviceDriverEx/misc-modules/hello.o] Error 1
+make[1]: *** [_module_/home/ita29411/LinuxDeviceDriverEx/misc-modules] Error 2
+make: *** [modules] Error 2

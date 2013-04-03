@@ -1,0 +1,447 @@
+execve("./polltest", ["./polltest"], [/* 43 vars */]) = 0
+brk(0)                                  = 0x804b000
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7f48000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=95503, ...}) = 0
+mmap2(NULL, 95503, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7f30000
+close(3)                                = 0
+open("/lib/libc.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\240\314"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=1577052, ...}) = 0
+mmap2(0xcb4000, 1295780, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xcb4000
+mmap2(0xdeb000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x137) = 0xdeb000
+mmap2(0xdee000, 9636, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xdee000
+close(3)                                = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7f2f000
+set_thread_area({entry_number:-1 -> 6, base_addr:0xb7f2f6c0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+mprotect(0xdeb000, 8192, PROT_READ)     = 0
+mprotect(0x2fe000, 4096, PROT_READ)     = 0
+munmap(0xb7f30000, 95503)               = 0
+open("/dev/myScull0", O_RDWR)           = 3
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "mknod: missing operand after `0\'"..., 4096) = 64
+write(1, "mknod: missing operand after `0\'"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "ormation.\nhmod: cannot access `/"..., 4096) = 64
+write(1, "ormation.\nhmod: cannot access `/"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "r directory\n", 4096)          = 12
+write(1, "r directory\n", 12)           = 12
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "OT_WRITE, MAP_PRIVATE|MAP_ANONYM"..., 4096) = 52
+write(1, "OT_WRITE, MAP_PRIVATE|MAP_ANONYM"..., 52) = 52
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "8000\naccess(\"/etc/ld.so.preload\""..., 4096) = 64
+write(1, "8000\naccess(\"/etc/ld.so.preload\""..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "h file or directory)\nopen(\"/etc/"..., 4096) = 64
+write(1, "h file or directory)\nopen(\"/etc/"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "\nfstat64(3, {st_mode=S_IFREG|064"..., 4096) = 64
+write(1, "\nfstat64(3, {st_mode=S_IFREG|064"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "2(NULL, 95503, PROT_READ, MAP_PR"..., 4096) = 64
+write(1, "2(NULL, 95503, PROT_READ, MAP_PR"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "3)                              "..., 4096) = 64
+write(1, "3)                              "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "DONLY)        = 3\nread(3, \"\\177E"..., 4096) = 64
+write(1, "DONLY)        = 3\nread(3, \"\\177E"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "\\0\\1\\0\\0\\0p\\240\\314\"..., 512) = "..., 4096) = 64
+write(1, "\\0\\1\\0\\0\\0p\\240\\314\"..., 512) = "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "0755, st_size=1577052, ...}) = 0"..., 4096) = 64
+write(1, "0755, st_size=1577052, ...}) = 0"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "EAD|PROT_EXEC, MAP_PRIVATE|MAP_D"..., 4096) = 64
+write(1, "EAD|PROT_EXEC, MAP_PRIVATE|MAP_D"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "(0xdeb000, 12288, PROT_READ|PROT"..., 4096) = 64
+write(1, "(0xdeb000, 12288, PROT_READ|PROT"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "P_DENYWRITE, 3, 0x137) = 0xdeb00"..., 4096) = 64
+write(1, "P_DENYWRITE, 3, 0x137) = 0xdeb00"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "D|PROT_WRITE, MAP_PRIVATE|MAP_FI"..., 4096) = 64
+write(1, "D|PROT_WRITE, MAP_PRIVATE|MAP_FI"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "e000\nclose(3)                   "..., 4096) = 64
+write(1, "e000\nclose(3)                   "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "6, PROT_READ|PROT_WRITE, MAP_PRI"..., 4096) = 64
+write(1, "6, PROT_READ|PROT_WRITE, MAP_PRI"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "7f2f000\nset_thread_area({entry_n"..., 4096) = 64
+write(1, "7f2f000\nset_thread_area({entry_n"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "6c0, limit:1048575, seg_32bit:1,"..., 4096) = 64
+write(1, "6c0, limit:1048575, seg_32bit:1,"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "imit_in_pages:1, seg_not_present"..., 4096) = 64
+write(1, "imit_in_pages:1, seg_not_present"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "eb000, 8192, PROT_READ)     = 0\n"..., 4096) = 64
+write(1, "eb000, 8192, PROT_READ)     = 0\n"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "AD)     = 0\nmunmap(0xb7f30000, 9"..., 4096) = 64
+write(1, "AD)     = 0\nmunmap(0xb7f30000, 9"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "ev/myScull0\", O_RDWR)           "..., 4096) = 64
+write(1, "ev/myScull0\", O_RDWR)           "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "revents=POLLIN}], 1, -1) = 1\nrea"..., 4096) = 64
+write(1, "revents=POLLIN}], 1, -1) = 1\nrea"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "er `0\\\'\"..., 4096) = 64\nwrite(1,"..., 4096) = 64
+write(1, "er `0\\\'\"..., 4096) = 64\nwrite(1,"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "0\\\'\"..., 64) = 64\npoll([{fd=3, e"..., 4096) = 64
+write(1, "0\\\'\"..., 64) = 64\npoll([{fd=3, e"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "1, -1) = 1\nread(3, \"ormation.\\nh"..., 4096) = 64
+write(1, "1, -1) = 1\nread(3, \"ormation.\\nh"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, " = 64\nwrite(1, \"ormation.\\nhmod:"..., 4096) = 64
+write(1, " = 64\nwrite(1, \"ormation.\\nhmod:"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "poll([{fd=3, events=POLLIN, reve"..., 4096) = 64
+write(1, "poll([{fd=3, events=POLLIN, reve"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, " \"r directory\\n\", 4096)         "..., 4096) = 64
+write(1, " \"r directory\\n\", 4096)         "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "12)           = 12\npoll([{fd=3, "..., 4096) = 64
+write(1, "12)           = 12\npoll([{fd=3, "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, " 1, -1) = 1\nread(3, \"\", 4096)   "..., 4096) = 64
+write(1, " 1, -1) = 1\nread(3, \"\", 4096)   "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, " \"\", 0)                         "..., 4096) = 64
+write(1, " \"\", 0)                         "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "revents=POLLIN}], 1, -1) = 1\nrea"..., 4096) = 64
+write(1, "revents=POLLIN}], 1, -1) = 1\nrea"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "     = 0\nwrite(1, \"\", 0)        "..., 4096) = 64
+write(1, "     = 0\nwrite(1, \"\", 0)        "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, ", events=POLLIN, revents=POLLIN}"..., 4096) = 64
+write(1, ", events=POLLIN, revents=POLLIN}"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "                      = 0\nwrite("..., 4096) = 64
+write(1, "                      = 0\nwrite("..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "  = 0\npoll([{fd=3, events=POLLIN"..., 4096) = 64
+write(1, "  = 0\npoll([{fd=3, events=POLLIN"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "ead(3, \"\", 4096)                "..., 4096) = 64
+write(1, "ead(3, \"\", 4096)                "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "                   = 0\npoll([{fd"..., 4096) = 64
+write(1, "                   = 0\npoll([{fd"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "N}], 1, -1) = 1\nread(3, \"\", 4096"..., 4096) = 64
+write(1, "N}], 1, -1) = 1\nread(3, \"\", 4096"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "e(1, \"\", 0)                     "..., 4096) = 64
+write(1, "e(1, \"\", 0)                     "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "IN, revents=POLLIN}], 1, -1) = 1"..., 4096) = 64
+write(1, "IN, revents=POLLIN}], 1, -1) = 1"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "         = 0\nwrite(1, \"\", 0)    "..., 4096) = 64
+write(1, "         = 0\nwrite(1, \"\", 0)    "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "fd=3, events=POLLIN, revents=POL"..., 4096) = 64
+write(1, "fd=3, events=POLLIN, revents=POL"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "ITE, MAP_PRIVATE|MAP_ANONYM\"...,"..., 4096) = 64
+write(1, "ITE, MAP_PRIVATE|MAP_ANONYM\"...,"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "MAP_PRIVATE|MAP_ANONYM\"..., 52) "..., 4096) = 64
+write(1, "MAP_PRIVATE|MAP_ANONYM\"..., 52) "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, " revents=POLLIN}], 1, -1) = 1\nre"..., 4096) = 64
+write(1, " revents=POLLIN}], 1, -1) = 1\nre"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, ".preload\\\"\"..., 4096) = 64\nwrite"..., 4096) = 64
+write(1, ".preload\\\"\"..., 4096) = 64\nwrite"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "reload\\\"\"..., 64) = 64\npoll([{fd"..., 4096) = 64
+write(1, "reload\\\"\"..., 64) = 64\npoll([{fd"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "N}], 1, -1) = 1\nread(3, \"h file "..., 4096) = 64
+write(1, "N}], 1, -1) = 1\nread(3, \"h file "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, " 4096) = 64\nwrite(1, \"h file or "..., 4096) = 64
+write(1, " 4096) = 64\nwrite(1, \"h file or "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, ") = 64\npoll([{fd=3, events=POLLI"..., 4096) = 64
+write(1, ") = 64\npoll([{fd=3, events=POLLI"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "read(3, \"\\nfstat64(3, {st_mode=S"..., 4096) = 64
+write(1, "read(3, \"\\nfstat64(3, {st_mode=S"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "(1, \"\\nfstat64(3, {st_mode=S_IFR"..., 4096) = 64
+write(1, "(1, \"\\nfstat64(3, {st_mode=S_IFR"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, ", events=POLLIN, revents=POLLIN}"..., 4096) = 64
+write(1, ", events=POLLIN, revents=POLLIN}"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "5503, PROT_READ, MAP_PR\"..., 409"..., 4096) = 64
+write(1, "5503, PROT_READ, MAP_PR\"..., 409"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, " PROT_READ, MAP_PR\"..., 64) = 64"..., 4096) = 64
+write(1, " PROT_READ, MAP_PR\"..., 64) = 64"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "ents=POLLIN}], 1, -1) = 1\nread(3"..., 4096) = 64
+write(1, "ents=POLLIN}], 1, -1) = 1\nread(3"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "   \"..., 4096) = 64\nwrite(1, \"3)"..., 4096) = 64
+write(1, "   \"..., 4096) = 64\nwrite(1, \"3)"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, ".., 64) = 64\npoll([{fd=3, events"..., 4096) = 64
+write(1, ".., 64) = 64\npoll([{fd=3, events"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, ") = 1\nread(3, \"DONLY)        = 3"..., 4096) = 64
+write(1, ") = 1\nread(3, \"DONLY)        = 3"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "64\nwrite(1, \"DONLY)        = 3\\n", 4096) = 32
+write(1, "64\nwrite(1, \"DONLY)        = 3\\n", 32) = 32
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "read(3, \\\"\\\\177E\"..., 64) = 64\np", 4096) = 32
+write(1, "read(3, \\\"\\\\177E\"..., 64) = 64\np", 32) = 32
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "oll([{fd=3, events=POLLIN, reven"..., 4096) = 64
+write(1, "oll([{fd=3, events=POLLIN, reven"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "\"\\\\0\\\\1\\\\0\\\\0\\\\0p\\\\240\\\\314\\\"..."..., 4096) = 64
+write(1, "\"\\\\0\\\\1\\\\0\\\\0\\\\0p\\\\240\\\\314\\\"..."..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "1, \"\\\\0\\\\1\\\\0\\\\0\\\\0p\\\\240\\\\314\\\""..., 4096) = 64
+write(1, "1, \"\\\\0\\\\1\\\\0\\\\0\\\\0p\\\\240\\\\314\\\""..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "[{fd=3, events=POLLIN, revents=P"..., 4096) = 64
+write(1, "[{fd=3, events=POLLIN, revents=P"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "5, st_size=1577052, ...}) = 0\".."..., 4096) = 64
+write(1, "5, st_size=1577052, ...}) = 0\".."..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "_size=1577052, ...}) = 0\"..., 64"..., 4096) = 64
+write(1, "_size=1577052, ...}) = 0\"..., 64"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "N, revents=POLLIN}], 1, -1) = 1\n"..., 4096) = 64
+write(1, "N, revents=POLLIN}], 1, -1) = 1\n"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "ATE|MAP_D\"..., 4096) = 64\nwrite("..., 4096) = 64
+write(1, "ATE|MAP_D\"..., 4096) = 64\nwrite("..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "AP_D\"..., 64) = 64\npoll([{fd=3, "..., 4096) = 64
+write(1, "AP_D\"..., 64) = 64\npoll([{fd=3, "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, " 1, -1) = 1\nread(3, \"(0xdeb000, "..., 4096) = 64
+write(1, " 1, -1) = 1\nread(3, \"(0xdeb000, "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, " = 64\nwrite(1, \"(0xdeb000, 12288"..., 4096) = 64
+write(1, " = 64\nwrite(1, \"(0xdeb000, 12288"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "oll([{fd=3, events=POLLIN, reven"..., 4096) = 64
+write(1, "oll([{fd=3, events=POLLIN, reven"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "\"P_DENYWRITE, 3, 0x137) = 0xdeb0"..., 4096) = 64
+write(1, "\"P_DENYWRITE, 3, 0x137) = 0xdeb0"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "NYWRITE, 3, 0x137) = 0xdeb00\"..."..., 4096) = 64
+write(1, "NYWRITE, 3, 0x137) = 0xdeb00\"..."..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "OLLIN, revents=POLLIN}], 1, -1) "..., 4096) = 64
+write(1, "OLLIN, revents=POLLIN}], 1, -1) "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "RIVATE|MAP_FI\"..., 4096) = 64\nwr"..., 4096) = 64
+write(1, "RIVATE|MAP_FI\"..., 4096) = 64\nwr"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "E|MAP_FI\"..., 64) = 64\npoll([{fd"..., 4096) = 64
+write(1, "E|MAP_FI\"..., 64) = 64\npoll([{fd"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "N}], 1, -1) = 1\nread(3, \"e000\\nc"..., 4096) = 64
+write(1, "N}], 1, -1) = 1\nread(3, \"e000\\nc"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "4096) = 64\nwrite(1, \"e000\\nclose"..., 4096) = 64
+write(1, "4096) = 64\nwrite(1, \"e000\\nclose"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "= 64\npoll([{fd=3, events=POLLIN,"..., 4096) = 64
+write(1, "= 64\npoll([{fd=3, events=POLLIN,"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "ad(3, \"6, PROT_READ|PROT_WRITE, "..., 4096) = 64
+write(1, "ad(3, \"6, PROT_READ|PROT_WRITE, "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, " \"6, PROT_READ|PROT_WRITE, MAP_P"..., 4096) = 64
+write(1, " \"6, PROT_READ|PROT_WRITE, MAP_P"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "ents=POLLIN, revents=POLLIN}], 1"..., 4096) = 64
+write(1, "ents=POLLIN, revents=POLLIN}], 1"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "thread_area({entry_n\"..., 4096) "..., 4096) = 64
+write(1, "thread_area({entry_n\"..., 4096) "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "ad_area({entry_n\"..., 64) = 64\np"..., 4096) = 64
+write(1, "ad_area({entry_n\"..., 64) = 64\np"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "ts=POLLIN}], 1, -1) = 1\nread(3, "..., 4096) = 64
+write(1, "ts=POLLIN}], 1, -1) = 1\nread(3, "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, ",\"..., 4096) = 64\nwrite(1, \"6c0,"..., 4096) = 64
+write(1, ",\"..., 4096) = 64\nwrite(1, \"6c0,"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, ", 64) = 64\npoll([{fd=3, events=P"..., 4096) = 64
+write(1, ", 64) = 64\npoll([{fd=3, events=P"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "= 1\nread(3, \"imit_in_pages:1, se"..., 4096) = 64
+write(1, "= 1\nread(3, \"imit_in_pages:1, se"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "ite(1, \"imit_in_pages:1, seg_not"..., 4096) = 64
+write(1, "ite(1, \"imit_in_pages:1, seg_not"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "=3, events=POLLIN, revents=POLLI"..., 4096) = 64
+write(1, "=3, events=POLLIN, revents=POLLI"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "8192, PROT_READ)     = 0\\n\"..., "..., 4096) = 64
+write(1, "8192, PROT_READ)     = 0\\n\"..., "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, ", PROT_READ)     = 0\\n\"..., 64) "..., 4096) = 64
+write(1, ", PROT_READ)     = 0\\n\"..., 64) "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, " revents=POLLIN}], 1, -1) = 1\nre"..., 4096) = 64
+write(1, " revents=POLLIN}], 1, -1) = 1\nre"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "30000, 9\"..., 4096) = 64\nwrite(1"..., 4096) = 64
+write(1, "30000, 9\"..., 4096) = 64\nwrite(1"..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "0, 9\"..., 64) = 64\npoll([{fd=3, "..., 4096) = 64
+write(1, "0, 9\"..., 64) = 64\npoll([{fd=3, "..., 64) = 64
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, " 1, -1) = 1\nread(3, \"ev/myScull0"..., 4096) = 1664
+write(1, " 1, -1) = 1\nread(3, \"ev/myScull0"..., 1664) = 1664
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN, revents=POLLIN}], 1, -1) = 1
+read(3, "", 4096)                       = 0
+write(1, "", 0)                         = 0
+poll([{fd=3, events=POLLIN}], 1, -1)    = ? ERESTART_RESTARTBLOCK (To be restarted)
+--- SIGINT (Interrupt) @ 0 (0) ---
++++ killed by SIGINT +++

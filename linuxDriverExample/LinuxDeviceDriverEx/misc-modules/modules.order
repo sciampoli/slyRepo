@@ -1,0 +1,9 @@
+kernel//home/silvestro/devFolder/LinuxDeviceDriverEx/misc-modules/hello.ko
+kernel//home/silvestro/devFolder/LinuxDeviceDriverEx/misc-modules/hellop.ko
+kernel//home/silvestro/devFolder/LinuxDeviceDriverEx/misc-modules/seq.ko
+kernel//home/silvestro/devFolder/LinuxDeviceDriverEx/misc-modules/jit.ko
+kernel//home/silvestro/devFolder/LinuxDeviceDriverEx/misc-modules/sleepy.ko
+kernel//home/silvestro/devFolder/LinuxDeviceDriverEx/misc-modules/complete.ko
+kernel//home/silvestro/devFolder/LinuxDeviceDriverEx/misc-modules/silly.ko
+kernel//home/silvestro/devFolder/LinuxDeviceDriverEx/misc-modules/faulty.ko
+kernel//home/silvestro/devFolder/LinuxDeviceDriverEx/misc-modules/jiq.ko

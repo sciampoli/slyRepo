@@ -1,0 +1,27 @@
+execve("./writeOnMyScull", ["./writeOnMyScull", "/dev/myScull0"], [/* 43 vars */]) = 0
+brk(0)                                  = 0x804b000
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7f01000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=95503, ...}) = 0
+mmap2(NULL, 95503, PROT_READ, MAP_PRIVATE, 3, 0) = 0xb7ee9000
+close(3)                                = 0
+open("/lib/libc.so.6", O_RDONLY)        = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\240\314"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=1577052, ...}) = 0
+mmap2(0xcb4000, 1295780, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xcb4000
+mmap2(0xdeb000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x137) = 0xdeb000
+mmap2(0xdee000, 9636, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xdee000
+close(3)                                = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xb7ee8000
+set_thread_area({entry_number:-1 -> 6, base_addr:0xb7ee86c0, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+mprotect(0xdeb000, 8192, PROT_READ)     = 0
+mprotect(0x2fe000, 4096, PROT_READ)     = 0
+munmap(0xb7ee9000, 95503)               = 0
+open("/dev/myScull0", O_WRONLY)         = 3
+read(0, "prova\n", 4096)                = 6
+write(3, "prova\n", 6)                  = 6
+read(0, "cisei\n", 4096)                = 6
+write(3, "cisei\n", 6)                  = 6
+read(0, "Stop\n", 4096)                 = 5
+exit_group(1)                           = ?
